@@ -1,0 +1,170 @@
+[{
+        "question" : "Who am I ? -'I am a mammal.I live near fresh water.I have webbed feet and flat tail.I build dams out of sticks and mud.'",
+        "option1" : "https://openclipart.org/image/2400px/svg_to_png/17814/lemmling-Cartoon-beaver.png",
+        "option2" : "https://openclipart.org/image/2400px/svg_to_png/23511/StudioFibonacci-Cartoon-triceratops.png",
+        "option3" : "https://openclipart.org/image/2400px/svg_to_png/22293/StudioFibonacci-Cartoon-rhino.png",
+        "option4" : "https://openclipart.org/image/2400px/svg_to_png/17592/lemmling-Cartoon-turtle.png",
+        "answer" : "1"
+
+},{
+        "question" : "Who am I ? -'I have four legs and you can ride me.'"  ,
+        "option1" : "https://openclipart.org/image/2400px/svg_to_png/17824/lemmling-Cartoon-goat.png" ,
+        "option2" : "https://openclipart.org/image/2400px/svg_to_png/17628/lemmling-Cartoon-giraffe.png" ,
+        "option3" : "https://openclipart.org/image/2400px/svg_to_png/190760/Horse.png" ,
+        "option4" : "https://openclipart.org/image/2400px/svg_to_png/17624/lemmling-Cartoon-gnu.png" ,
+        "answer" : "3"
+},{
+        "question" : "Who am I ? -'I have a lot of wool. I live on a farm.'",
+        "option1" : "https://openclipart.org/image/2400px/svg_to_png/17633/lemmling-Cartoon-mouse-on-top-of-a-cheese.png",
+        "option2" : "https://openclipart.org/image/2400px/svg_to_png/17637/lemmling-Cartoon-sheep.png",
+        "option3" : "https://openclipart.org/image/2400px/svg_to_png/17683/lemmling-Cartoon-cat.png",
+        "option4" : "https://openclipart.org/image/2400px/svg_to_png/17692/lemmling-Cartoon-dog.png",
+        "answer" : "2"
+
+},{
+        "question" : "Who am I ? -'I live in Africa and I have white and black stripes.'",
+        "option1" : "https://openclipart.org/image/2400px/svg_to_png/22287/StudioFibonacci-Cartoon-zebra.png",
+        "option2" : "https://openclipart.org/image/2400px/svg_to_png/17824/lemmling-Cartoon-goat.png",
+        "option3" : "https://openclipart.org/image/2400px/svg_to_png/17635/lemmling-Cartoon-elk.png",
+        "option4" : "https://openclipart.org/image/2400px/svg_to_png/17566/lemmling-Cartoon-owl.png",
+        "answer" : "1"
+
+}
+,{
+        "question" : "Who am I ? -'I live in the water in Africa. I am big'",
+        "option1" : "https://openclipart.org/image/2400px/svg_to_png/17692/lemmling-Cartoon-dog.png",
+        "option2" : "https://openclipart.org/image/2400px/svg_to_png/69817/cartoon-bee.png",
+        "option3" : "https://openclipart.org/image/2400px/svg_to_png/190760/Horse.png",
+        "option4" : "https://openclipart.org/image/2400px/svg_to_png/22337/StudioFibonacci-Cartoon-hippo.png",
+        "answer" : "4"
+
+}
+,{
+        "question" : "Who am I ? -'People called Gnu or Wildebeest.I have large and box-like head.'",
+        "option1" : "https://openclipart.org/image/2400px/svg_to_png/17810/lemmling-Cartoon-elephant.png",
+        "option2" : "https://openclipart.org/image/2400px/svg_to_png/17624/lemmling-Cartoon-gnu.png",
+        "option3" : "https://openclipart.org/image/2400px/svg_to_png/17628/lemmling-Cartoon-giraffe.png",
+        "option4" : "https://openclipart.org/image/2400px/svg_to_png/190760/Horse.png",
+        "answer" : "2"
+},{
+        "question" : "Who am I ? -'I am Elk or red deer.I have a characteristic buff colored rump and long thin legs'",
+        "option1" : "https://openclipart.org/image/2400px/svg_to_png/17635/lemmling-Cartoon-elk.png",
+        "option2" : "https://openclipart.org/image/2400px/svg_to_png/17676/lemmling-Cartoon-cow.png",
+        "option3" : "https://openclipart.org/image/2400px/svg_to_png/17595/lemmling-Cartoon-squirrel.png",
+        "option4" : "https://openclipart.org/image/2400px/svg_to_png/17824/lemmling-Cartoon-goat.png",
+        "answer" : "1"
+}
+,{
+        "question" : "Who am I ? -'I am Dinosaur'",
+        "option1" : "https://openclipart.org/image/2400px/svg_to_png/17692/lemmling-Cartoon-dog.png",
+        "option2" : "https://openclipart.org/image/2400px/svg_to_png/17814/lemmling-Cartoon-beaver.png",
+        "option3" : "https://openclipart.org/image/2400px/svg_to_png/17566/lemmling-Cartoon-owl.png",
+        "option4" : "https://openclipart.org/image/2400px/svg_to_png/23511/StudioFibonacci-Cartoon-triceratops.png",
+        "answer" : "4"
+}
+,{
+        "question" : "Who am I ? -'I am a bird but I can swim in the water.I have short legs'",
+        "option1" : "https://openclipart.org/image/2400px/svg_to_png/17635/lemmling-Cartoon-elk.png",
+        "option2" : "https://openclipart.org/image/2400px/svg_to_png/17566/lemmling-Cartoon-owl.png",
+        "option3" : "https://openclipart.org/image/2400px/svg_to_png/170850/1340285483.png",
+        "option4" : "https://openclipart.org/image/2400px/svg_to_png/17595/lemmling-Cartoon-squirrel.png",
+        "answer" : "3"
+}
+,{
+        "question" : "Who am I ? -'You might find me on a farm.I like to greet the morning with the loud,\"cock-a-doodle-doo!\"'",
+        "option1" : "https://openclipart.org/image/2400px/svg_to_png/17692/lemmling-Cartoon-dog.png",
+        "option2" : "https://openclipart.org/image/2400px/svg_to_png/170849/1340285286.png",
+        "option3" : "https://openclipart.org/image/2400px/svg_to_png/17624/lemmling-Cartoon-gnu.png",
+        "option4" : "https://openclipart.org/image/2400px/svg_to_png/17814/lemmling-Cartoon-beaver.png",
+        "answer" : "2"
+}
+,{
+        "question" : "Who am I ? -'I live in Africa.I have very long neck and very thin and long legs.I have many spot.'",
+        "option1" : "https://openclipart.org/image/2400px/svg_to_png/17810/lemmling-Cartoon-elephant.png",
+        "option2" : "https://openclipart.org/image/2400px/svg_to_png/17628/lemmling-Cartoon-giraffe.png",
+        "option3" : "https://openclipart.org/image/2400px/svg_to_png/17624/lemmling-Cartoon-gnu.png",
+        "option4" : "https://openclipart.org/image/2400px/svg_to_png/17595/lemmling-Cartoon-squirrel.png",
+        "answer" : "2"
+
+}
+,{
+        "question" : "Who am I ? -'I live in Africa.I am gray and dangerous.I have a bone on my nose.'",
+        "option1" : "https://openclipart.org/image/2400px/svg_to_png/22293/StudioFibonacci-Cartoon-rhino.png",
+        "option2" : "https://openclipart.org/image/2400px/svg_to_png/17824/lemmling-Cartoon-goat.png",
+        "option3" : "https://openclipart.org/image/2400px/svg_to_png/190760/Horse.png",
+        "option4" : "https://openclipart.org/image/2400px/svg_to_png/22287/StudioFibonacci-Cartoon-zebra.png",
+        "answer" : "1"
+
+}
+,{
+        "question" : "Who am I ? -'I live with people.I can't climb trees.I can bark.'",
+        "option1" : " https://openclipart.org/image/2400px/svg_to_png/17683/lemmling-Cartoon-cat.png",
+        "option2" : "https://openclipart.org/image/2400px/svg_to_png/17692/lemmling-Cartoon-dog.png",
+        "option3" : "https://openclipart.org/image/2400px/svg_to_png/69817/cartoon-bee.png",
+        "option4" : "https://openclipart.org/image/2400px/svg_to_png/17633/lemmling-Cartoon-mouse-on-top-of-a-cheese.png",
+        "answer" : "2"
+
+}
+,{
+        "question" : "Who am I ? -'People can get milk from me.I can grow taller than a person.I am black, white, or brown.'",
+        "option1" : "https://openclipart.org/image/2400px/svg_to_png/190760/Horse.png",
+        "option2" : "https://openclipart.org/image/2400px/svg_to_png/17824/lemmling-Cartoon-goat.png",
+        "option3" : "https://openclipart.org/image/2400px/svg_to_png/17637/lemmling-Cartoon-sheep.png",
+        "option4" : "https://openclipart.org/image/2400px/svg_to_png/17676/lemmling-Cartoon-cow.png",
+        "answer" : "4"
+
+}
+,{
+        "question" : "Who am I ? -'People can keep me at home and I will help you catching mice.'",
+        "option1" : "https://openclipart.org/image/2400px/svg_to_png/17683/lemmling-Cartoon-cat.png",
+        "option2" : "https://openclipart.org/image/2400px/svg_to_png/17810/lemmling-Cartoon-elephant.png",
+        "option3" : "https://openclipart.org/image/2400px/svg_to_png/17633/lemmling-Cartoon-mouse-on-top-of-a-cheese.png",
+        "option4" : "https://openclipart.org/image/2400px/svg_to_png/23511/StudioFibonacci-Cartoon-triceratops.png",
+        "answer" : "1"
+
+}
+,{
+        "question" : "Who am I ? -'I am so small and I have a long tail.I live in the fields and eats maize and cheese.",
+        "option1" : "https://openclipart.org/image/2400px/svg_to_png/17814/lemmling-Cartoon-beaver.png",
+        "option2" : "https://openclipart.org/image/2400px/svg_to_png/17633/lemmling-Cartoon-mouse-on-top-of-a-cheese.png",
+        "option3" : "https://openclipart.org/image/2400px/svg_to_png/17592/lemmling-Cartoon-turtle.png",
+        "option4" : "https://openclipart.org/image/2400px/svg_to_png/69817/cartoon-bee.png",
+        "answer" : "2"
+
+}
+,{
+        "question" : "Who am I ? -'I am a reptile.People say I am slow.I am a herbivore.Ihave a shell that called a carapace.'",
+        "option1" : "https://openclipart.org/image/2400px/svg_to_png/22293/StudioFibonacci-Cartoon-rhino.png",
+        "option2" : "https://openclipart.org/image/2400px/svg_to_png/17624/lemmling-Cartoon-gnu.png",
+        "option3" : "https://openclipart.org/image/2400px/svg_to_png/17592/lemmling-Cartoon-turtle.png",
+        "option4" : "https://openclipart.org/image/2400px/svg_to_png/22337/StudioFibonacci-Cartoon-hippo.png",
+        "answer" : "3"
+
+}
+,{
+        "question" : "Who am I ? -'I am an insect that produces and stores honey.I can string and this can be very painful!'",
+        "option1" : "https://openclipart.org/image/2400px/svg_to_png/17566/lemmling-Cartoon-owl.png",
+        "option2" : "https://openclipart.org/image/2400px/svg_to_png/17676/lemmling-Cartoon-cow.png",
+        "option3" : "https://openclipart.org/image/2400px/svg_to_png/17633/lemmling-Cartoon-mouse-on-top-of-a-cheese.png",
+        "option4" : "https://openclipart.org/image/2400px/svg_to_png/69817/cartoon-bee.png",
+        "answer" : "4"
+
+}
+,{
+        "question" : "Who am I ? -'I am very big and strong.I am gray.I live in Africa.I have four legs.I eat leaves.'",
+        "option1" : "https://openclipart.org/image/2400px/svg_to_png/17628/lemmling-Cartoon-giraffe.png",
+        "option2" : "https://openclipart.org/image/2400px/svg_to_png/17810/lemmling-Cartoon-elephant.png",
+        "option3" : "https://openclipart.org/image/2400px/svg_to_png/17824/lemmling-Cartoon-goat.png",
+        "option4" : "https://openclipart.org/image/2400px/svg_to_png/22287/StudioFibonacci-Cartoon-zebra.png",
+        "answer" : "2"
+
+},{
+        "question" : "Who am I ? -'I am small rodent and like to eat nuts and seeds.I have a soft and silky fur and a bushy tail.'",
+        "option1" : "https://openclipart.org/image/2400px/svg_to_png/17595/lemmling-Cartoon-squirrel.png",
+        "option2" : "https://openclipart.org/image/2400px/svg_to_png/17692/lemmling-Cartoon-dog.png",
+        "option3" : "https://openclipart.org/image/2400px/svg_to_png/17633/lemmling-Cartoon-mouse-on-top-of-a-cheese.png",
+        "option4" : "https://openclipart.org/image/2400px/svg_to_png/190760/Horse.png",
+        "answer" : "1"
+
+}
+]

@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Quiz</title>
+      <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Rammetto+One|Shadows+Into+Light" rel="stylesheet">
+      <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+      <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+
+    <div class="welcome-section content-hidden">
+            <div class="content-wrap">
+                <a href="#" class="fly-in-text">10 questions</a>
+
+                <a href="#" class="enter-button">20 questions</a>
+            </div>
+        </div>
+      <div id=quiz-and-clock class="quizAnd">
+    <div id="quizContainer" class="container">
+      <div class="title">Question : </div>
+      <div id="question" class="question">
+        <p id="question1">Who am I ? -'I am a mammal.I live near fresh water.I have webbed feet and flat tail.I build dams out of sticks and mud.'</p>
+      </div>
+
+      <div id="score" class="score">
+      <p>score :  <p id="score1" class="score1">0</p></p>
+      </div>
+      <article id="allClock" class="clock">
+        <div class="hours-container">
+          <div class="hours"></div>
+        </div>
+        <div id = "second" class="seconds-container">
+          <div class="seconds"></div>
+        </div>
+      </article>
+    </div>
+  </div>
+      <div id="buttons" class="button">
+          <button id="btn1" value="1" style="border: 0; background: transparent" onclick="loadNextQuestion()"><span id="choice11"></span>
+              <img id="1" src="https://openclipart.org/image/2400px/svg_to_png/17814/lemmling-Cartoon-beaver.png" width="150" height="150" alt="submit" />
+              </button>
+          <button id="btn2" value="2" style="border: 0; background: transparent" onclick="loadNextQuestion()"><span id="choice22"></span>
+              <img id="2" src="https://openclipart.org/image/2400px/svg_to_png/23511/StudioFibonacci-Cartoon-triceratops.png" width="150" height="150" alt="submit" />
+              </button>
+          <button id="btn2" value="3" style="border: 0; background: transparent" onclick="loadNextQuestion()"><span id="choice33"></span>
+              <img id="3" src="https://openclipart.org/image/2400px/svg_to_png/22293/StudioFibonacci-Cartoon-rhino.png" width="150" height="150" alt="submit" />
+              </button>
+          <button id="btn4" value="4" style="border: 0; background: transparent" onclick="loadNextQuestion()"><span id="choice44"></span>
+              <img id="4" src="https://openclipart.org/image/2400px/svg_to_png/17592/lemmling-Cartoon-turtle.png" width="150" height="150" alt="submit" />
+              </button>
+      </div>
+
+
+
+      <div id=timers>Time left = <span id="timer"></span></div>
+    </div>
+    <div id="result" class="container-result" style="display:none;">
+    </div>
+    <script src="jquery-3.3.1.min.js" charset="utf-8" type="text/javascript"></script>
+    <script type="text/javascript">
+    var element4 = document.getElementById("score");
+    element4.classList.remove("score");
+
+
+
+            $(function() {
+
+                var welcomeSection = $('.welcome-section'),
+                    enterButton = (welcomeSection.find('.fly-in-text'));
+
+                setTimeout(function() {
+                    welcomeSection.removeClass('content-hidden');
+                }, 500);
+
+                enterButton.on('click', function(e) {
+                    e.preventDefault();
+                    welcomeSection.addClass('content-hidden').fadeOut();
+                    var element = document.getElementById("second");
+                    element.classList.remove("seconds-container");
+                    void element.offsetWidth;
+                    element.classList.add("seconds-container");
+                    document.getElementById('timer').innerHTML = 01 + ":" + 00;
+                    element4.classList.add("score");
+                    numChoice=10;
+                });
+
+
+            });
+            $(function() {
+
+
+                var welcomeSection = $('.welcome-section'),
+                    enterButton = (welcomeSection.find('.enter-button'));
+
+                setTimeout(function() {
+                    welcomeSection.removeClass('content-hidden');
+                }, 500);
+
+                enterButton.on('click', function(e) {
+                    e.preventDefault();
+                    welcomeSection.addClass('content-hidden').fadeOut();
+                    var element = document.getElementById("second");
+                    element.classList.remove("seconds-container");
+                    void element.offsetWidth;
+                    element.classList.add("seconds-container");
+                    document.getElementById('timer').innerHTML = 01 + ":" + 00;
+                    element4.classList.add("score");
+                    numChoice=20;
+                });
+
+
+            });
+
+
+
+        </script>
+        <script>
+        document.getElementById('timer').innerHTML =
+        01 + ":" + 00;
+        startTimer();
+        var container3 = document.getElementById('timers');
+        container3.style.display ='none';
+
+        function startTimer() {
+          var presentTime = document.getElementById('timer').innerHTML;
+          var timeArray = presentTime.split(/[:]+/);
+          var m = timeArray[0];
+          var s = checkSecond((timeArray[1] - 1));
+          if(s==59){m=m-1}
+          if(m<0){loadNextQuestion();
+              document.getElementById('timer').innerHTML = 01 + ":" + 00;
+              startTimer();
+              return;
+          }
+
+          document.getElementById('timer').innerHTML =
+          m + ":" + s;
+          var clo = 1000;
+          setTimeout(startTimer, clo);
+        }
+
+        function checkSecond(sec) {
+          if (sec < 10 && sec >= 0) {sec = "0" + sec}; // add zero in front of numbers < 10
+          if (sec < 0) {sec = "59"};
+          return sec;
+        }
+
+        </script>
+        <script>
+        function shuffle(array) {
+            var i = array.length,
+            j = 0,
+            temp;
+
+            while (i--) {
+
+              j = Math.floor(Math.random() * (i+1));
+
+              // swap randomly chosen element with current element
+              temp = array[i];
+              array[i] = array[j];
+              array[j] = temp;
+
+            }
+
+            return array;
+          }
+        </script>
+    <script >
+      var num=-1;
+      var idClicked;
+      var ans;
+      var total=0
+      var numChoice;
+      var numEnd;
+      var count = 0;
+
+      var ranNums = shuffle([0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]);
+      $("#1").click(function(e){
+        idClicked = e.target.id;
+        var element = document.getElementById("second");
+        element.classList.remove("seconds-container");
+        void element.offsetWidth;
+        element.classList.add("seconds-container");
+      });
+      $("#2").click(function(e){
+        idClicked = e.target.id;
+        var element = document.getElementById("second");
+        element.classList.remove("seconds-container");
+        void element.offsetWidth;
+        element.classList.add("seconds-container");
+      });
+      $("#3").click(function(e){
+        idClicked = e.target.id;
+        var element = document.getElementById("second");
+        element.classList.remove("seconds-container");
+        void element.offsetWidth;
+        element.classList.add("seconds-container");
+      });
+      $("#4").click(function(e){
+        idClicked = e.target.id;
+        var element = document.getElementById("second");
+        element.classList.remove("seconds-container");
+        void element.offsetWidth;
+        element.classList.add("seconds-container");
+      });
+
+    function loadNextQuestion(){
+
+      $(document).ready(function(){
+          $.ajax({
+            url:'question.json',
+            method:'GET',
+            dataType:'json',
+            success: function(response) {
+              console.log(response);
+
+              if (num!==-1){
+                
+                ans = response[ranNums[num-1]].answer;
+                console.log(response);
+                $('.question').html(response[ranNums[num]].question);
+                document.getElementById("1").src = response[ranNums[num]].option1;
+                document.getElementById("2").src = response[ranNums[num]].option2;
+                document.getElementById("3").src = response[ranNums[num]].option3;
+                document.getElementById("4").src = response[ranNums[num]].option4;
+
+              }
+              else{
+                num++;
+                ans = response[0].answer;
+                $('.question').html(response[ranNums[num]].question);
+                document.getElementById("1").src = response[ranNums[num]].option1;
+                document.getElementById("2").src = response[ranNums[num]].option2;
+                document.getElementById("3").src = response[ranNums[num]].option3;
+                document.getElementById("4").src = response[ranNums[num]].option4;
+                count++;
+              }
+              if (num+1==numChoice){
+                var container = document.getElementById('quizContainer');
+                var container2 = document.getElementById('buttons');
+                var resultCont = document.getElementById('result');
+                container.style.display ='none';
+                container2.style.display ='none';
+                resultCont.style.display = '';
+                document.body.style.backgroundColor='black';
+                document.body.style.backgroundImage = "url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/hMH8tD4/colorful-painting-abstract-background-animation-with-rainbow-brush-strokes-appearing_vynfw175__F0009.png')";
+                document.body.style.backgroundSize="100% 100% ";
+                if (ans==idClicked){
+                  total++;}
+                resultCont.textContent = 'Your Score : ' + total;
+              }
+              if (ans==idClicked){
+                total++;
+                $('.score1').html(total);
+                document.getElementById('timer').innerHTML = 01 + ":" + 00;
+                num++;
+                return;
+
+              }
+              else{
+                $('.score1').html(total);
+                document.getElementById('timer').innerHTML = 01 + ":" + 00;
+                num++;
+                return;
+              }
+
+          }
+
+
+
+        });
+
+
+
+    });
+
+  }
+
+
+
+
+
+    </script>
+
+
+
+  </body>
+</html>
